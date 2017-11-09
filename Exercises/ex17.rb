@@ -1,0 +1,14 @@
+#17. What will the following program output?
+hash1 = {shoes: "nike", "hat" => "adidas", :hoodie => true}
+hash2 = {"hat" => "adidas", :shoes => "nike", hoodie: true}
+
+if hash1 == hash2
+  puts "These hashes are the same!"
+else
+  puts "These hashes are not the same!"
+end
+
+# Although they use different syntax, the hashes are equal (both symbols and strings
+  #correspond to the same values). 
+  #The expression will evaluate as true and "These hashes are the same!" will be printed
+  
